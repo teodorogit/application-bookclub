@@ -1,0 +1,22 @@
+#headline {
+    display: flex;
+    justify-content: center;
+
+    gap: 40px;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: -10px 20px 30px rgba(0, 0, 0, 0.093);
+    border-radius: 20px;
+    height: 40px;
+}
+#headline > svg {
+    color: black;
+}
+.section {
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
