@@ -7,7 +7,7 @@
     margin: 0 auto;
     align-items: center;
     box-shadow: -10px 20px 30px rgba(0, 0, 0, 0.093);
-    border-radius: 20px;
+    border-radius: 9px;
     height: 40px;
 }
 #headline > svg {

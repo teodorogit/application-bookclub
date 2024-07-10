@@ -39,9 +39,7 @@ const Index = ({ title }) => {
                 </div>
                 <div className="section">
                     <Link to="/comentarios">
-                        <FaRegComment
-                            style={{ backgroundColor: location.pathname === "/comentarios" ? "#7FAD7A" : "white" }}
-                        />
+                        <FaRegComment />
                     </Link>
                 </div>
                 <div>

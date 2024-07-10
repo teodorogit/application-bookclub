@@ -11,10 +11,32 @@
     flex-direction: column;
     gap: 5px;
 }
+.section1 > form > label {
+    font-family: "Poppins", sans-serif;
+}
 .section1 > form > input {
+    border-radius: 9px;
+    padding-left: 5px;
+    border: 1px solid #72a94e;
     height: 40px;
 }
-
+.section1 > form > input:focus {
+    outline-color: #72a94e;
+}
+#sugestao_livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    height: 45px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 9px;
+}
 .btn_submit {
     margin: 0 auto;
     width: 80%;
