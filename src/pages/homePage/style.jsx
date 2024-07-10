@@ -67,7 +67,14 @@ export const HeaderDiv = styled.header`
         width: 100%;
     }
 `;
-
+export const HeaderComponent = styled.div`
+    > div {
+        box-shadow: none !important;
+        > div {
+            display: none;
+        }
+    }
+`;
 export const SectionDiv = styled.div`
     display: flex;
     flex-direction: column;
@@ -150,7 +157,7 @@ export const BlobButton = styled.button`
     position: relative;
     padding: 20px 46px;
     width: 85%;
-    margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
     text-transform: uppercase;
     color: var(--cyan);

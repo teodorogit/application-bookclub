@@ -9,6 +9,7 @@ import {
     BlobInner,
     BlobButton,
     BlobBlobs,
+    HeaderComponent,
 } from "./style.jsx";
 import fundo from "../../img/fundo.jpg";
 import { HiOutlineMapPin } from "react-icons/hi2";
@@ -17,6 +18,7 @@ import { PiStarThin } from "react-icons/pi";
 import { RiUserVoiceLine } from "react-icons/ri";
 import styled, { createGlobalStyle } from "styled-components";
 import { useNavigate } from "react-router-dom";
+import Header from "../../layout/Header";
 
 const Index = () => {
     const [width, setWidth] = useState(window.innerWidth);
@@ -68,9 +70,9 @@ const Index = () => {
 
     return (
         <>
-            <HeaderDiv>
-                <h2>App Clube do Livro</h2>
-            </HeaderDiv>
+            <HeaderComponent>
+                <Header title="Bem vindo" />
+            </HeaderComponent>
 
             <Container>
                 <SectionDiv>

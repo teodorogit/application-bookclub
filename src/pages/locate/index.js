@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import classes from "./style.module.css";
 import { SiGooglemaps } from "react-icons/si";
 import Header from "../../layout/Header";
 

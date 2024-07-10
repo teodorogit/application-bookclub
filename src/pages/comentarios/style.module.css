@@ -1,0 +1,27 @@
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+}
+.section1 > form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section1 > form > input {
+    height: 40px;
+}
+
+.btn_submit {
+    margin: 0 auto;
+    width: 80%;
+    border: none;
+    height: 45px;
+    background-color: rgb(246, 198, 109);
+    border-radius: 9px;
+    color: #555;
+    font-size: 18px;
+}

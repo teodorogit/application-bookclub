@@ -13,9 +13,9 @@ const Index = () => {
             <div id="livro">
                 <h3 id="titulo">Livro do mês:</h3>
                 <p id="descricao">
-                    Resumo do livro:Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure earum officia
-                    eligendi dolorem molestias minus quis, quasi tempore debitis quidem nihil repellendus esse nulla
-                    minima explicabo. Perspiciatis hic iure voluptatem.
+                    <span>Resumo do livro:</span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure earum
+                    officia eligendi dolorem molestias minus quis, quasi tempore debitis quidem nihil repellendus esse
+                    nulla minima explicabo. Perspiciatis hic iure voluptatem.
                 </p>
             </div>
         </div>

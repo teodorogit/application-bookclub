@@ -38,9 +38,11 @@ const Index = ({ title }) => {
                     </Link>
                 </div>
                 <div className="section">
-                    <FaRegComment
-                        style={{ backgroundColor: location.pathname === "/comentarios" ? "#7FAD7A" : "white" }}
-                    />
+                    <Link to="/comentarios">
+                        <FaRegComment
+                            style={{ backgroundColor: location.pathname === "/comentarios" ? "#7FAD7A" : "white" }}
+                        />
+                    </Link>
                 </div>
                 <div>
                     <button id="btn_back" onClick={handleBack}>
