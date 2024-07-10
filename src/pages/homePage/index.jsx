@@ -34,7 +34,7 @@ const Index = () => {
     const handlePage = () => {
         setTimeout(() => {
             navigation("/informacoes");
-        }, 1500);
+        }, 2000);
     };
 
     function getRandomFrase() {
@@ -98,21 +98,20 @@ const Index = () => {
                 </SectionDiv>
             </Container>
 
-            <div style={{ marginTop: "40px" }}>
-                <Buttons>
-                    <BlobButton onClick={handlePage}>
-                        Entrar
-                        <BlobInner>
-                            <BlobBlobs>
-                                <BlobBlob />
-                                <BlobBlob />
-                                <BlobBlob />
-                                <BlobBlob />
-                            </BlobBlobs>
-                        </BlobInner>
-                    </BlobButton>
-                </Buttons>
-            </div>
+            <Buttons>
+                <BlobButton onClick={handlePage}>
+                    Entrar
+                    <BlobInner>
+                        <BlobBlobs>
+                            <BlobBlob />
+                            <BlobBlob />
+                            <BlobBlob />
+                            <BlobBlob />
+                        </BlobBlobs>
+                    </BlobInner>
+                </BlobButton>
+            </Buttons>
+
             <FooterDivs frase={fraseAtual} />
 
             {/* <Btn>Entrar</Btn> */}

@@ -10,6 +10,7 @@ export const Container = styled.div`
     padding: 5% 10%;
     width: 90%;
     margin: 0 auto;
+    margin-top: -50px;
 `;
 
 export const Btn = styled.button`
@@ -157,7 +158,6 @@ export const BlobButton = styled.button`
     position: relative;
     padding: 20px 46px;
     width: 85%;
-    margin-top: 40px;
     text-align: center;
     text-transform: uppercase;
     color: var(--cyan);
@@ -169,6 +169,9 @@ export const BlobButton = styled.button`
     transition: color 0.5s;
     cursor: pointer;
     border-radius: 30px;
+    @media (min-height: 620px) {
+        margin-top: 60px;
+    }
 
     &:before {
         content: "";
