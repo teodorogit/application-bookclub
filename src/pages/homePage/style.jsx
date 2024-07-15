@@ -31,6 +31,7 @@ export const HeaderDiv = styled.header`
     gap: 10px;
     margin: 15px auto;
     width: 90%;
+
     > div > h3 {
         color: #555;
         font-weight: normal;
@@ -62,19 +63,13 @@ export const HeaderDiv = styled.header`
         font-weight: 400;
         color: #111;
         letter-spacing: 1.2px;
-        border-bottom: 3px solid #7fad7a;
+        border-bottom: 2px solid #7fad7a;
         padding: 5px;
-        border-radius: 9px;
         width: 100%;
     }
 `;
 export const HeaderComponent = styled.div`
-    > div {
-        box-shadow: none !important;
-        > div {
-            display: none;
-        }
-    }
+    margin-bottom: 60px;
 `;
 export const SectionDiv = styled.div`
     display: flex;
@@ -165,8 +160,8 @@ export const BlobButton = styled.button`
     font-weight: bold;
     background-color: transparent;
     outline: none;
-    border: none;
     transition: color 0.5s;
+    border: none;
     cursor: pointer;
     border-radius: 30px;
     @media (min-height: 620px) {

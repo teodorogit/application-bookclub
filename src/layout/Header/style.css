@@ -1,22 +1,67 @@
 #headline {
+    position: absolute;
     display: flex;
-    justify-content: center;
-
-    gap: 40px;
-    width: 95%;
-    margin: 0 auto;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
     box-shadow: -10px 20px 30px rgba(0, 0, 0, 0.093);
-    border-radius: 9px;
-    height: 40px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: rgb(249, 243, 243);
+    align-items: center;
+    padding-top: 55px;
+    transition: all 500ms ease-in-out;
+    border-bottom-right-radius: 50px;
+    z-index: 2;
 }
 #headline > svg {
     color: black;
+}
+#icon_header {
+    display: flex;
+    font-size: 30px;
 }
 .section {
     min-width: 10%;
     display: flex;
     justify-content: center;
-    padding: 5px;
+    align-items: center;
+    border-left: 5px solid rgb(245, 194, 126);
+    width: 80%;
+    padding: 6px 12px;
+    background-color: rgb(250, 231, 207);
+    > a {
+        font-weight: 600;
+        text-decoration: none;
+        > p {
+            color: #111;
+
+            font-size: 14px;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+#shadow {
+    background-color: rgba(0, 0, 0, 0.436);
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+    transition: all 300ms ease-in;
+}
+#div_out {
+    background-color: rgb(122, 182, 95);
+    position: absolute;
+    bottom: 0px;
+    border-bottom-right-radius: 3cqh;
+    width: 100%;
+    height: 45px;
+    display: flex;
     align-items: center;
 }

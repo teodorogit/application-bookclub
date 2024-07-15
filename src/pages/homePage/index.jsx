@@ -12,7 +12,7 @@ import {
     HeaderComponent,
 } from "./style.jsx";
 import fundo from "../../img/fundo.jpg";
-import { HiOutlineMapPin } from "react-icons/hi2";
+import { HiBackspace, HiOutlineMapPin } from "react-icons/hi2";
 import { FiFileText } from "react-icons/fi";
 import { PiStarThin } from "react-icons/pi";
 import { RiUserVoiceLine } from "react-icons/ri";
@@ -71,7 +71,7 @@ const Index = () => {
     return (
         <>
             <HeaderComponent>
-                <Header title="Bem vindo" />
+                <Header />
             </HeaderComponent>
 
             <Container>
@@ -82,7 +82,7 @@ const Index = () => {
                     </div>
                     <div>
                         <FiFileText color="#BFAC4B" size={20} />
-                        <p>Lista de leitora em grupo</p>
+                        <p>Divulgação dos livros do mês</p>
                     </div>
                     <div>
                         <PiStarThin color="#BF372A" />
