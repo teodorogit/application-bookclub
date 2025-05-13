@@ -3,12 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: #fad89fdc;
-    /* border-top-left-radius: 30px; */
-    border-radius: 30px;
     position: relative;
     padding: 5% 10%;
-    width: 90%;
+    width: 97%;
     margin: 0 auto;
     margin-top: -50px;
 `;
@@ -18,7 +15,7 @@ export const Btn = styled.button`
     bottom: 0px;
     left: 50%;
     width: 80%;
-    bottom: 20px;
+    bottom: 10px;
     height: 50px;
     transform: translateX(-50%);
 `;
@@ -74,12 +71,11 @@ export const HeaderComponent = styled.div`
 export const SectionDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 16px;
     > h3 {
         font-family: "Poppins", sans-serif;
         color: #111;
         font-size: 14px;
-        width: 95%;
         text-align: center;
         > span {
             border-left: 2px solid #bf372a;
@@ -92,7 +88,7 @@ export const SectionDiv = styled.div`
     }
     > div {
         display: flex;
-        align-items: center;
+        align-items: space-between;
         gap: 20px;
         > p {
             font-family: "Poppins", sans-serif;
@@ -103,7 +99,7 @@ export const SectionDiv = styled.div`
         }
         > svg {
             color: #000;
-            font-size: 30px;
+            font-size: 34px;
         }
     }
 `;

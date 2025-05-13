@@ -4,6 +4,8 @@ import classes from "./style.module.css";
 import { PiBookOpenLight } from "react-icons/pi";
 import { FiMapPin } from "react-icons/fi";
 import ModalPopUp from "../../layout/popUp";
+// import dotenv
+
 
 const Index = () => {
     const [popUPLivro, setPopUpLivro] = useState(false);
@@ -31,7 +33,7 @@ const Index = () => {
         window.Email.send({
             Host: "smtp.elasticemail.com",
             Username: "matheusdevteodoro@gmail.com",
-            Password: "FA632CCFEEC92C39E916C772E9151EF6C2B9",
+            Password: process.env.EMAIL_PASSWORD,
             To: "matheusdevteodoro@gmail.com",
             From: "matheusdevteodoro@gmail.com",
             Subject: "Nova sugestão de livro - Clube do livro:",
@@ -57,8 +59,8 @@ const Index = () => {
         window.Email.send({
             Host: "smtp.elasticemail.com",
             Username: "matheusdevteodoro@gmail.com",
-            Password: "FA632CCFEEC92C39E916C772E9151EF6C2B9",
-            To: "matheusdevteodoro@gmail.com",
+            Password: process.env.VAR_LOCATION_PASSWORD,
+            To: process.env.EMAIL_TO_RECIEVE_MESSAGE,
             From: "matheusdevteodoro@gmail.com",
             Subject: "Nova sugestão de Local de encontro- ",
             Body: `Dados recebidos:<br><br>
